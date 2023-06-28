@@ -1,3 +1,9 @@
+
+.body{
+  background-color: rgb(166, 4, 4);
+}
+
+/* Barra de Navegacion */
 .navbar-dark{
 
   background-color: rgb(19, 19, 19);
@@ -26,21 +32,67 @@
 .navbar-nav .nav-item :hover{
   color: rgb(19, 19, 19);
 }
+
+/* adaptacion de la barra de navegacion a pantallas pequeñas */
+
 @media screen and (max-width: 767px) {
 
   .navbar-dark .navbar-nav .nav-link:hover {
     color: rgb(0, 0, 0);
   }
 
+  #hero-info{
+    align-items: end;
+  }
+
+
+
 }
 
 @media screen and (max-width: 290px) {
 
-  .navbar-dark .navbar-nav .nav-link:hover {
-    color: rgb(0, 0, 0);
-  }
+
   #name-left{
     display: none;
   }
 
+  #hero-info{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-align: center;
+  }
+
+
+
+}
+
+/* adaptación de la seccion hero */
+
+#hero-image{
+
+ width: 20vw;
+ max-width: 1000px;
+ min-width: 250px;
+ margin: auto;
+ alignment: center;
+
+}
+
+.hero{
+  background-color: rgb(19, 19, 19);
+  background-size: cover;
+  color: WHITE;
+  padding: 130px 0 0 0;
+}
+
+
+#hero-info{
+  margin: 6rem 15rem 0 0;
+  padding: 0 0 0 0;
+}
+
+#hero-info h2{
+  color: #555555;
+  font-size: 2rem;
+  font-weight: 200;
 }
