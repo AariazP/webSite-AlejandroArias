@@ -2,6 +2,23 @@
 .body{
   background-color: rgb(166, 4, 4);
 }
+/* Barra de scroll */
+
+/* Estilo personalizado para la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 8px; /* Ancho de la barra de desplazamiento */
+}
+
+/* Fondo de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+  background-color: rgb(19,19,19); /* Color de fondo de la barra de desplazamiento */
+}
+
+/* Color del pulgar de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background-color: #969696; /* Color del pulgar de la barra de desplazamiento */
+}
+
 
 /* Barra de Navegacion */
 .navbar-dark{
@@ -45,8 +62,6 @@
     align-items: center;
   }
 
-
-
 }
 
 @media screen and (max-width: 740px) {
@@ -58,15 +73,16 @@
   #hero-info {
     align-items: center;
   }
+  .contenedor-about-me{
+
+    margin: 0 0 0 0;
 
 
-
-
+  }
 }
 
 
 @media screen and (max-width: 290px) {
-
 
   #name-left{
     display: none;
@@ -75,13 +91,18 @@
   #hero-info{
     text-align: center;
   }
+  .contenedor-about-me{
 
+    margin: 0 0 0 0;
+
+  }
 
 }
 
 /* adaptación de la seccion hero */
 
 #hero-image{
+ margin: 6rem 0 0 0;
  height: 30rem;
  width: 22.5rem;
  alignment: center;
@@ -102,11 +123,65 @@
   align-items: flex-start;
   height: 30rem;
   width: 22.5rem;
-  padding: 0 0 0 2rem;
+  padding: 10rem 0 0 2rem;
 }
 
 #hero-info h2{
   color: #555555;
   font-size: 2rem;
   font-weight: 200;
+}
+
+/* adaptación de la sección de about me */
+
+.about-me{
+  background-color: rgb(19, 19, 19);
+  color: #c2c2c2;
+  padding: 5rem 0 0 0;
+}
+
+.contenedor-about-me{
+
+  margin: 0 15rem 0 15rem;
+  text-align: center;
+
+}
+
+.contenedor-about-me p{
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin: 3rem 0 0 0;
+}
+
+@keyframes brillo-animacion {
+  0% { text-shadow: 0 0 5px rgba(255, 255, 255, 0.5); }
+  50% { text-shadow: 0 0 20px rgba(255, 255, 255, 0.8); }
+  100% { text-shadow: 0 0 5px rgba(255, 255, 255, 0.5); }
+}
+
+.brillo {
+  animation: brillo-animacion 2s infinite;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+/* adaptación de la sección de portfolio */
+
+.portfolio{
+  background-color: rgb(19, 19, 19);
+  color: WHITE;
+  padding: 5rem 0 0 0;
+  text-align: center;
+}
+
+.row-portfolio{
+  margin:  5rem 0 0 0;
+}
+.columna{
+  color: WHITE;
+}
+
+.icons-project{
+  font-size: 2rem;
+  color: #c2c2c2;
 }
