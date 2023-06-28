@@ -42,12 +42,28 @@
   }
 
   #hero-info{
-    align-items: end;
+    align-items: center;
   }
 
 
 
 }
+
+@media screen and (max-width: 740px) {
+
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(0, 0, 0);
+  }
+
+  #hero-info {
+    align-items: center;
+  }
+
+
+
+
+}
+
 
 @media screen and (max-width: 290px) {
 
@@ -57,11 +73,8 @@
   }
 
   #hero-info{
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
     text-align: center;
   }
-
 
 
 }
@@ -69,12 +82,10 @@
 /* adaptación de la seccion hero */
 
 #hero-image{
-
- width: 20vw;
- max-width: 1000px;
- min-width: 250px;
- margin: auto;
+ height: 30rem;
+ width: 22.5rem;
  alignment: center;
+ border-radius: 3%;
 
 }
 
@@ -82,13 +93,16 @@
   background-color: rgb(19, 19, 19);
   background-size: cover;
   color: WHITE;
-  padding: 130px 0 0 0;
 }
 
-
 #hero-info{
-  margin: 6rem 15rem 0 0;
-  padding: 0 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 30rem;
+  width: 22.5rem;
+  padding: 0 0 0 2rem;
 }
 
 #hero-info h2{
