@@ -19,6 +19,21 @@
   background-color: #969696; /* Color del pulgar de la barra de desplazamiento */
 }
 
+.soft-skill-honor{
+  font-size: 3rem;
+  color: #ffee00;
+}
+
+.soft-skill-dev{
+  font-size: 3rem;
+  color: #ff0000;
+
+}
+
+.soft-skill-img{
+  font-size: 3rem;
+  color: #0067ff;
+}
 
 /* Barra de Navegacion */
 .navbar-dark{
@@ -73,12 +88,7 @@
   #hero-info {
     align-items: center;
   }
-  .contenedor-about-me{
 
-    margin: 0 0 0 0;
-
-
-  }
 }
 
 
@@ -91,11 +101,7 @@
   #hero-info{
     text-align: center;
   }
-  .contenedor-about-me{
 
-    margin: 0 0 0 0;
-
-  }
 
 }
 
@@ -142,7 +148,7 @@
 
 .contenedor-about-me{
 
-  margin: 0 15rem 0 15rem;
+  margin: 0 30px 0 30px;
   text-align: center;
 
 }
@@ -184,4 +190,236 @@
 .icons-project{
   font-size: 2rem;
   color: #c2c2c2;
+}
+.img-carrousel{
+
+  height: 25rem;
+  width: 5rem;
+  border-radius: 3%;
+  margin: 0 0 0 0;
+  opacity: .2;
+
+}
+
+.carousel-item a{
+  color: #ffffff;
+}
+
+/* adaptación de la sección de skills */
+
+.skills{
+  background-color: rgb(19, 19, 19);
+  padding: 3rem 0 0 0;
+}
+.skills-h2{
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 200;
+  text-align: center;
+}
+
+.skills .row div{
+  text-align: center;
+  border: #c2c2c2 solid 1px;
+  margin: 3rem 0 0 0;
+  padding: 2rem 0 3rem 0;
+}
+
+.skills .row div h3{
+
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 200;
+
+}
+
+.skills .row div p{
+
+  text-align: justify;
+  color: #555555;
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin: 1rem 2rem 3rem 2rem;
+}
+
+.badge{
+  margin: 0 .3rem 0 0;
+
+}
+
+.skills .col{
+  transition: all .5s ease-in-out;
+}
+
+.skills .col:hover{
+  background-color: #0c0c0c;
+  transform: scale(1.03);
+  box-shadow: white 0 0 10px;
+  border: #555555 solid 1px;
+}
+
+.article{
+
+  margin: 0 0 0 0;
+  padding: 2rem 0  2rem 0;
+  text-align: justify;
+  color: #555555;
+  font-size: 1.5rem;
+  font-weight: 200;
+  background-color: rgb(19, 19, 19);
+
+}
+
+.list-group{
+  margin: 3rem 12rem 1rem 12rem;
+}
+
+.article h2{
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 200;
+  text-align: center;
+}
+
+.list-group .disabled{
+  background-color: rgb(19, 19, 19);
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-align: center;
+}
+
+.list-group-item {
+
+  background-color: rgb(35, 35, 35);
+  color: #ffffff;
+
+}
+
+.list-group-item a{
+  color: #ffffff;
+}
+
+.btn{
+  margin: 0 0 0 12rem;
+}
+
+/* adaptación de la sección de contact */
+
+.contacto{
+  background-color: rgb(19, 19, 19);
+  padding: 5rem 0 0 0;
+  text-align: center;
+}
+
+.contacto .container {
+  max-width: 1100px;
+  min-height: 200px;
+  padding: 20px;
+
+}
+
+.contacto .rectangulo {
+  margin-top: -5rem;
+  background-color: rgb(19, 19, 19);
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contacto .descripcion {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.contacto button {
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+  background-color: white;
+  color: black;
+}
+
+.contacto button i {
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i {
+  color: black;
+}
+
+.seccion-titulo{
+  color: #ffffff;
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* adaptación de la sección de footer */
+
+footer{
+
+  background-color: rgb(19, 19, 19);
+  padding: 5rem 0 0 0;
+  text-align: center;
+
+}
+
+footer h3{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  color: white;
+}
+
+
+.graph{
+
+  color: white;
+  font-size: 2rem;
+  margin: .5rem 0 0 0;
+}
+
+
+.network{
+
+  margin: 0 3rem 0 0;
+  color: #c2c2c2;
+  font-size: 2rem;
+
+}
+
+.network:hover{
+
+  color: white;
+  transition: ease-in .2s;
+  cursor: hand;
+  font-size: 2.5rem;
+
+}
+
+.iconos-redes-sociales{
+  margin: 3rem 0 0 0;
+}
+
+.derechos-de-autor{
+  margin: 2rem 0 3rem 0;
+  padding: 0 0 0 0;
+  color: white;
+  font-size: 1rem;
+  font-weight: 100;
 }

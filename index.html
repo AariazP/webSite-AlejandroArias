@@ -48,16 +48,16 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About me</a>
+                <a class="nav-link active" aria-current="page" href="#about-me">About me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Testimonials</a>
+                <a class="nav-link" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#articles">Articles</a>
               </li>
             </ul>
           </div>
@@ -82,8 +82,8 @@
       </div>
     </section>
     <!--about me section-->
-    <section class="about-me">
-      <div class="contenedor-about-me">
+    <section id="about-me" class="about-me">
+      <div class="contenedor-about-me flex-wrap">
         <h2 class="brillo"> Who I Am </h2>
         <p>"Experienced software developer with a background in information systems analysis and development and
               certifications in Linux Essentials and Git Essential. Proficient in Java and experienced in developing
@@ -101,7 +101,7 @@
       </div>
     </section>
     <!--portfolio section-->
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio">
       <h2 class="brillo">Portfolio</h2>
       <div class="container text-center">
         <div class="row row-portfolio">
@@ -117,24 +117,24 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="..." class="d-block w-100" alt="...">
+                  <img src="img/spotify-clone.png" class="d-block w-100 img-carrousel" alt="image-spotify-clone">
                   <div class="carousel-caption d-none d-md-block">
                     <h5>Spotify clone</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <p>A clone of the famous music player. <b> <a href="https://github.com/AariazP/Spotify-DE-FinalProject.git" target="_blank">Github.</a></b></p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="..." class="d-block w-100" alt="...">
+                  <img src="img/marketplace.png" class="d-block w-100 img-carrousel" alt="image-marketplace">
                   <div class="carousel-caption d-none d-md-block">
                     <h5>Marketplace</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <p>A store where you can auction and buy. <b><a href="https://github.com/Parritap/Subastas-Quindio.git" target="_blank">Github.</a></b></p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="..." class="d-block w-100" alt="...">
+                  <img src="img/dashboard.png" class="d-block w-100 img-carrousel" alt="image-dashboard">
                   <div class="carousel-caption d-none d-md-block">
                     <h5>System dashboard</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <p>an analytics system for any data. <b><a href="https://github.com/AariazP/MetricasShellScript.git" target="_blank">Github</a></b></p>
                   </div>
                 </div>
               </div>
@@ -152,11 +152,149 @@
           <div class="columna col-12 col-md-6">
             <i class="bi bi-mortarboard icons-project"></i>
             <h3>Studies</h3>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae incidunt, magnam? Ad, eos placeat? Ad aliquid, iste. Accusamus adipisci deserunt esse facere fugiat minus odio, officia perspiciatis, quis sapiente voluptates!
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/logoUniversidad.png" class="d-block w-100 img-carrousel" alt="university-logo">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Universidad del Quindío</h5>
+                    <p>Computer and systems engineering. </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/senaLogo.png" class="d-block w-100 img-carrousel" alt="sena-logo">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>SENA</h5>
+                    <p>Software development and object-oriented UML.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/english.png" class="d-block w-100 img-carrousel" alt="english-studies">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>English language</h5>
+                    <p>English b1 at American school way</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </section>
+    <!--skills-->
+   <section id="skills" class="skills">
+     <h2 class="brillo skills-h2">Skills</h2>
+     <div class="container text-center">
+       <div class="row">
+         <div class="col col-md-4">
+           <i class="soft-skill-honor bi bi-award"></i>
+           <h3>Soft skills</h3>
+           <p> My ability to empathize with others and understand different perspectives fosters a supportive and
+             inclusive work culture. Overall, my soft skills complement my technical expertise, making me a well-rounded
+             professional ready to tackle any task</p>
+           <span class="badge text-bg-light">Effective Communication</span>
+           <span class="badge text-bg-light">Problem Solving</span>
+           <span class="badge text-bg-light">Teamwork and Collaboration</span>
+           <span class="badge text-bg-light">Adaptability and Flexibility</span>
+         </div>
+         <div class="col col-md-4">
+           <i class="soft-skill-img bi bi-cpu"></i>
+           <h3>Development</h3>
+           <p>As a computer systems engineer, I possess a strong skill set that enables me to design and optimize
+             complex systems. With a deep understanding of hardware and software integration, I excel in developing
+             efficient solutions that meet specific requirements. </p>
+           <span class="badge text-bg-light">Java</span>
+           <span class="badge text-bg-light">Javascript, HTML, CSS</span>
+           <span class="badge text-bg-light">Shellscript</span>
+           <span class="badge text-bg-light">SQL</span>
+         </div>
+         <div class="col col-md-4">
+           <i class="soft-skill-dev bi bi-ubuntu"></i>
+           <h3>Dev-Ops</h3>
+           <p>I'm proficient in implementing continuous integration and delivery practices, ensuring rapid and
+             reliable software releases. Through my strong problem-solving skills and proactive approach, I contribute
+             to the stability and scalability of systems.</p>
+           <span class="badge text-bg-light">linux</span>
+           <span class="badge text-bg-light">CI/CD</span>
+           <span class="badge text-bg-light">Admin ti</span>
+           <span class="badge text-bg-light">Admin servers</span>
+         </div>
+       </div>
+     </div>
+   </section>
+    <!--articles-->
+    <section id="articles" class="article">
+      <h2 class="brillo article-h2">Articles</h2>
+      <ul class="list-group">
+        <li class="list-group-item disabled" aria-disabled="true">Some free software articles</li>
+        <li class="list-group-item"><a href="https://github.com/AariazP/DesignPatterns.git" target="_blank">Design patterns</a></li>
+        <li class="list-group-item"><a href="https://github.com/AariazP/wifiTest.git" target="_blank">Force brute Wi-Fi test</a></li>
+      </ul>
+      <a href="https://github.com/AariazP" target="_blank" rel="noopener">
+        <button type="button" class="btn btn-secondary">
+          <i class="bi bi-three-dots"></i>
+          Ver más
+        </button>
+      </a>
+    </section>
+    <!--contact-->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:josea.ariasp@uqvirtual.edu.co">
+                <button type="button">
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <footer class="d-flex flex-column align-items-center justify-content-center">
+      <h3 class="footer-texto text-center brillo">My social networks</h3>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://youtube.com/@Ariaz_" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-youtube network"></i>
+        </a>
+        <a href="https://github.com/AariazP" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github network"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/jos%C3%A9-alejandro-arias-pinz%C3%B3n-20253a24a" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin network"></i>
+        </a>
+        <a href="https://www.instagram.com/aariaz_/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram network"></i>
+        </a>
+        <a href="mailto:josea.ariasp@uqvirtual.edu.co" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope network"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Create by Alejandro Arias (2022) &#169;</div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
